@@ -1,0 +1,16 @@
+{
+  "name": "citest",
+  "version": "1.0.0",
+  "description": "citest ======",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radamus/citest.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radamus/citest/issues"
+  },
+  "homepage": "https://github.com/radamus/citest"
+}
