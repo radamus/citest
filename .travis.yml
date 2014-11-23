@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: s3
+  access_key_id: AKIAJYL4APCMADL56T4Q
+  secret_access_key:
+    secure: YJ+6xaiIGbL/kAyiDvj9qHAT9RPZTvE78o68vf0c0zzj0xOxXr8+w3p+C5uUz68qvQqaNi8OXiAQwpjaPVEq6gBTwpu7e2d9yA7+GF+arJGTg5v7B3MwrSer3SqtWnIRZ4uqLHmo3268Z5SUxZNn0PF14oOLdFyMwWKNjEw/18k=
+  bucket: deploy-weeia
+  upload-dir: demo
+  acl: public_read
+  on:
+    repo: radamus/citest
