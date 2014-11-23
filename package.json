@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/radamus/citest/issues"
   },
-  "homepage": "https://github.com/radamus/citest"
+  "homepage": "https://github.com/radamus/citest",
+  "dependencies": {
+    "aws-sdk": "^2.0.28",
+    "ejs": "^1.0.0",
+    "webs-weeia": "^0.2.2"
+  }
 }
